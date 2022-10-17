@@ -1,0 +1,76 @@
+body {
+    background-color: green;
+}
+
+#card1 {
+    background-color: white;
+    position: relative;
+    width: 169px;
+    
+    border-radius: 5%;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#card2 {
+    background-color: white;
+    position: absolute;
+    width: 169px;
+    
+    border-radius: 5%;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-left: 11.5%;
+}
+
+.topcornercontainer {
+    display: inline-block;
+    text-align: center;
+}
+
+.bottomcornercontainer {
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+.clearfix {
+    clear: both ;    
+}
+
+.cornernumbertop {
+    /* background-color: blue; */
+}
+
+.smallclovertop {
+    background-color: white;
+}
+
+.pip {
+    /* background-color: goldenrod; */
+    text-align: center  ;
+}
+
+.smallcloverbottom {
+    background-color: white;
+    rotate: 180deg ;
+}
+
+.cornernumberbottom {
+    /* background-color: red; */
+    rotate: 180deg;
+}
+
+img.suit {
+height: 25px;
+}
+
+img.pfp {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
